@@ -69,3 +69,8 @@ p {
     text-align: center;
     color: #bcd9df;
 } 
+
+a:link {
+    color: #f46337;
+    background-color: transparent;
+    text-decoration: none;
