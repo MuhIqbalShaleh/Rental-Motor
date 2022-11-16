@@ -1,0 +1,71 @@
+:root{
+    --App-Background: #066173;
+    --Neutral-White: #fff;
+    --Bg2: #097991;
+
+}
+
+.navbar-custom {
+    font-weight: bold;
+    background-color: var(--Bg2);
+    color: var(--Neutral-White);
+}
+
+.nav-link {
+    font-weight: bold;
+    color: var(--Neutral-White);
+  }
+
+body {
+    float: center;
+    text-align: center;
+    color: var(--Neutral-White);
+    background-color: var(--App-Background);
+}
+
+.container {
+    float: center;
+    text-align: center;
+    margin: 120px;
+    padding: 100px;
+}
+
+.btn {
+    font-weight: bold;
+    float: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #f46337;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.btn:hover {
+    font-weight: bold;
+    float: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color:#fff;
+    color: #f46337;
+    transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    color: var(--Neutral-White);
+}  
+
+.decoration {
+    text-align: center;
+    color: var(--Neutral-White);
+    text-decoration: underline;
+    text-decoration-color: #ff6235;
+    text-underline-offset: 35px;
+}
+
+p {
+    padding: 50px;
+    text-align: center;
+    color: #bcd9df;
+} 
